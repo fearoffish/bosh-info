@@ -1,4 +1,4 @@
-# Bosh::Differ
+# Bosh::Info
 
 TODO: Write a gem description
 
