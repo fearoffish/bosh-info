@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "redcard"
   spec.add_dependency "interact"
   spec.add_dependency "easy_diff"
-
+  spec.add_dependency "term-ansicolor"
 end

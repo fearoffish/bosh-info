@@ -5,6 +5,7 @@ module Bosh::Info
   class ThorCli < Thor
 
     desc "specs", "Show job spec file differences between git tags"
+    option :cf_release, default: ".", desc: "The folder that contains cf-release"
     option :from, required: true,  desc: "The tag or sha in history to compare"
     option :to,   required: false, desc: "The tag or sha in future to compare", banner: "HEAD"
     def specs
