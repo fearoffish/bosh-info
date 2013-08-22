@@ -9,7 +9,6 @@ class Bosh::Info::Cli::Commands::Specs
   include Bosh::Info::Cli::Helpers
 
   def initialize(options)
-    puts "OPTIONS: #{options}"
     @options = options
   end
 
