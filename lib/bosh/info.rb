@@ -6,8 +6,6 @@ require "bosh/info/core_ext/string"
 require "bosh/info/version"
 require "bundler/setup"
 
-Bundler.require
-
 module Bosh
   module Info
   end
